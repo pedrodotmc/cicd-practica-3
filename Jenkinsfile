@@ -6,7 +6,7 @@ pipeline {
 
     stage('Source') {
       steps {
-        git 'https://github.com/srayuso/unir-cicd.git'
+        checkout scm
       }
     }
 
